@@ -1,0 +1,77 @@
+body{
+background: #4E8037;
+}
+div{
+    display: inline-block;
+    align-content: center;
+}
+@font-face {
+    font-family: minhaFont;
+    src: url(Nice\ Sugar.ttf);
+  }
+.voltar{
+    font-family: minhaFont;
+    width: 150px;
+    height: 90px;
+    border-radius: 50px;
+    background-color: darkgreen;
+    display: inline-block;
+	margin: 1.5em;
+	border: 0;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	color: #FFF;
+	background:darkgreen ;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	border-radius: 0.5em;
+	box-shadow: 3px 3px 0 3px darkgreen;
+	transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+}
+.voltar:active{
+
+	box-shadow: 0 0 0 0 darkgreen,
+	inset 4px 4px 4px darkgreen;
+	transform: translate(6px, 6px);
+		
+}
+.nomePrincipal{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    font-family: minhaFont;
+    font-style: normal;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.abelha{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    font-family: minhaFont;
+    font-style: normal;
+    display: block;
+}
+.nomes{
+    position: relative;
+    font-family: minhaFont;
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.info{
+    font-family: minhaFont;
+    font-style: normal;
+    display: block;
+    align-items: center;
+    color: #FFFFFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
